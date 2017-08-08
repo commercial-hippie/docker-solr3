@@ -3,7 +3,7 @@ MAINTAINER 2degrees <2degrees-floss@googlegroups.com>
 
 ENV \
     SOLR_VERSION=3.2.0 \
-    SOLR_SHA1_CHECKSUM=0edf666bea51990524e520bdcb811e14b4de4c41 \
+    SOLR_SHA1_CHECKSUM=78caf37494603d69096709ed31455e6e433bff63 \
     SOLR_USER=solr \
     SOLR_HOME_PATH=/etc/opt/solr \
     JETTY_HOME_PATH=/etc/opt/jetty \
