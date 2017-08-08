@@ -2,7 +2,7 @@ FROM java:7-jre
 MAINTAINER 2degrees <2degrees-floss@googlegroups.com>
 
 ENV \
-    SOLR_VERSION=4.10.4 \
+    SOLR_VERSION=3.2.0 \
     SOLR_SHA1_CHECKSUM=0edf666bea51990524e520bdcb811e14b4de4c41 \
     SOLR_USER=solr \
     SOLR_HOME_PATH=/etc/opt/solr \
