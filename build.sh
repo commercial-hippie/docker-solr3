@@ -54,7 +54,7 @@ function expand_tgz() {
 function deploy_solr_distribution() {
     local mirror_url="$1"
 
-    local solr_download_url="${mirror_url}/solr-${SOLR_VERSION}.tgz"
+    local solr_download_url="${mirror_url}/apache-solr-${SOLR_VERSION}.tgz"
     download_file \
         "${solr_download_url}" \
         "${SOLR_DOWNLOAD_PATH}" \
